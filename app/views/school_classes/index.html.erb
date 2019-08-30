@@ -1,0 +1,5 @@
+<ul>
+  <% @school_classes.each do |sc| %>
+    <li><%= link_to sc.t_and_l, school_class_path(sc) %></li>
+  <% end %>
+</ul>
